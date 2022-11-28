@@ -1,0 +1,9 @@
+import { imgRepoClient } from "./utils/imgS3Client.js";
+
+let imageList = imgRepoClient.listImages()
+
+console.log(fff
+
+
+console.log(imageList)
+

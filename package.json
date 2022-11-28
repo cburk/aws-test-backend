@@ -1,0 +1,26 @@
+{
+  "name": "aws-test-backend",
+  "version": "1.0.0",
+  "description": "node backend for s3 image repository app",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cburk/aws-test-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cburk/aws-test-backend/issues"
+  },
+  "homepage": "https://github.com/cburk/aws-test-backend#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.216.0",
+    "@aws-sdk/node-http-handler": "^3.32.0",
+    "@aws-sdk/types": "^3.32.0",
+    "express": "^4.18.2"
+  }
+}
